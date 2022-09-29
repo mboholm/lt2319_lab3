@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+  <action name="top">
+    <one-of>
+      <item>main menu</item>
+      <item>top</item>
+      <item>beginning</item>
+      <item>cancel</item>
+      <item>forget it</item>
+      <item>never mind</item>
+      <item>abort</item>
+    </one-of>
+  </action>
+
+  <action name="up">
+    <one-of>
+      <item>up</item>
+      <item>back</item>
+      <item>go back</item>
+    </one-of>
+  </action>
+
+  <action name="french_omelette">
+    <one-of>
+      <item>I want to prepare a French omelette</item>
+      <item>I want to cook a French omelette</item>
+      <item>I want to make some French omelette</item>
+    </one-of>
+  </action>
+
+  <greeting>Hi!</greeting>
+
+  <!-- <action name="crack">Crack three eggs on a bowl and whisk with a pinch of salt</action>
+  <action name="heat_butter">Heat butter or oil on a pan on high heat</action>
+  <action name="mix_pan_stir">Add the egg mixture to the pan and stir the eggs for about 30 seconds</action>
+  <action name="heat_off_fold">When the eggs are set but look slightly wet, turn off the heat and fold the omelette</action>
+  <action name="transfer">After a few seconds, transfer the omelette onto a plate</action> -->
+
+  <individual name="chef">you</individual>
+
+
+
+
+</grammar>

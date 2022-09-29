@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="Lab3CookingAppOntology">
+	
+	<action name="french_omelette"/>
+
+	<!-- <action name="crack"/>
+	<action name="heat_butter"/>
+	<action name="mix_pan_stir"/>
+	<action name="heat_off_fold"/>
+	<action name="transfer"/> -->
+
+	<sort name="person"/>
+
+	<predicate name="finished_omelette" sort="person"/>
+
+	<individual name="chef" sort="person"/>
+	
+</ontology>

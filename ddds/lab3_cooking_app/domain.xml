@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="Lab3CookingAppDomain" is_super_domain="true">
+  <goal type="perform" action="top">
+    <plan>
+      <forget_all/>
+      <findout type="goal"/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="french_omelette">
+
+  	<plan>
+  		<get_done action="crack"/>
+  		<get_done action="heat_butter"/>
+  		<get_done action="mix_pan_stir"/>
+  		<get_done action="heat_off_fold"/>
+  		<get_done action="transfer"/>
+  		<inform>
+  			<proposition predicate="finished_omelette" value="chef"/>
+  		</inform>
+  		<!-- How to utter the proposition? There is no grammar entries for predicates. -->
+  	</plan>
+  	
+  </goal>
+</domain>
