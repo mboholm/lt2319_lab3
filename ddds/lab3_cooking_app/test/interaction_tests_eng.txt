@@ -52,7 +52,7 @@ S> When the eggs are set but look slightly wet, turn off the heat and fold the o
 U> done
 S> After a few seconds, transfer the omelette onto a plate.
 U> done
-S> Amazing! You have finished preparing a French omelette. Bon appétit!.
+S> Amazing! You have finished preparing a French omelette. Bon appetit!.
 
 --- French omelette with help
 S> What would you like to do?

@@ -39,14 +39,10 @@
 
   <greeting>Hi!</greeting>
 
-  <!-- <action name="crack">Crack three eggs on a bowl and whisk with a pinch of salt</action>
-  <action name="heat_butter">Heat butter or oil on a pan on high heat</action>
-  <action name="mix_pan_stir">Add the egg mixture to the pan and stir the eggs for about 30 seconds</action>
-  <action name="heat_off_fold">When the eggs are set but look slightly wet, turn off the heat and fold the omelette</action>
-  <action name="transfer">After a few seconds, transfer the omelette onto a plate</action> -->
+  <individual name="exit_omelette">Amazing! You have finished preparing a French omelette. Bon appetit!</individual>
+  <individual name="exit_soup">Your soup is finished. Bon appetit!</individual>
+  <individual name="exit_butter">One tablespoon is fine</individual>
 
-  <individual name="exit_omelette">Amazing! You have finished preparing a French omelette. Bon appétit!</individual>
-  <individual name="exit_soup">Your soup is finished. Bon appétit!</individual>
   <individual name="omelette_recipe">French omelette</individual>
   <individual name="soup_recipe">Tomato soup</individual>
   <individual name="butter">butter</individual>
@@ -60,10 +56,9 @@
   	</one-of>
   </question>
 
-  <question speaker="system" predicate="is_ingredient" type="wh_question">What ingredient</question>
+  <!-- <question speaker="system" predicate="is_ingredient" type="wh_question">What ingredient</question> -->
 
   <answer predicate="quantity" speaker="system">One tablespoon is fine</answer>
-  <!-- Over-simplification! -->
 
   <answer speaker="user">
     <one-of>

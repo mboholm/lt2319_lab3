@@ -14,16 +14,18 @@
 
 	<sort name="exit"/>
 	<sort name="ingredient"/>
+	<sort name="q_ingredient"/>
 	<sort name="recipe"/>
 
-	<predicate name="finished_omelette" sort="exit"/>
-	<predicate name="finished_soup" sort="exit"/>
+	<predicate name="finished" sort="exit"/>
 	<predicate name="is_ingredient" sort="ingredient"/>
 	<predicate name="is_recipe" sort="recipe"/>
-	<predicate name="quantity" sort="ingredient"/>
+	<predicate name="quantity" sort="q_ingredient"/>
 
 	<individual name="exit_omelette" sort="exit"/>
 	<individual name="exit_soup" sort="exit"/>
+	<individual name="exit_butter" sort="exit"/>
+
 	<individual name="omelette_recipe" sort="recipe"/>
 	<individual name="soup_recipe" sort="recipe"/>
 	<individual name="butter" sort="ingredient"/>
