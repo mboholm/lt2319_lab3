@@ -2,6 +2,9 @@
 <ontology name="Lab3CookingAppOntology">
 	
 	<action name="french_omelette"/>
+	<action name="tomato_soup"/>
+
+	<action name="mix_pan_stir"/>
 
 	<!-- <action name="crack"/>
 	<action name="heat_butter"/>
@@ -9,10 +12,20 @@
 	<action name="heat_off_fold"/>
 	<action name="transfer"/> -->
 
-	<sort name="person"/>
+	<sort name="exit"/>
+	<sort name="ingredient"/>
+	<sort name="recipe"/>
 
-	<predicate name="finished_omelette" sort="person"/>
+	<predicate name="finished_omelette" sort="exit"/>
+	<predicate name="finished_soup" sort="exit"/>
+	<predicate name="is_ingredient" sort="ingredient"/>
+	<predicate name="is_recipe" sort="recipe"/>
+	<predicate name="quantity" sort="ingredient"/>
 
-	<individual name="chef" sort="person"/>
+	<individual name="exit_omelette" sort="exit"/>
+	<individual name="exit_soup" sort="exit"/>
+	<individual name="omelette_recipe" sort="recipe"/>
+	<individual name="soup_recipe" sort="recipe"/>
+	<individual name="butter" sort="ingredient"/>
 	
 </ontology>

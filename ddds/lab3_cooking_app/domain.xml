@@ -3,23 +3,61 @@
   <goal type="perform" action="top">
     <plan>
       <forget_all/>
-      <findout type="goal"/>
+      <findout type="goal"/> 
     </plan>
   </goal>
 
   <goal type="perform" action="french_omelette">
-
   	<plan>
-  		<get_done action="crack"/>
-  		<get_done action="heat_butter"/>
-  		<get_done action="mix_pan_stir"/>
-  		<get_done action="heat_off_fold"/>
-  		<get_done action="transfer"/>
-  		<inform>
-  			<proposition predicate="finished_omelette" value="chef"/>
-  		</inform>
-  		<!-- How to utter the proposition? There is no grammar entries for predicates. -->
+      <assume_shared>
+        <proposition predicate="is_recipe" value="omelette_recipe"/>
+      </assume_shared>
+
+      <assume_shared>
+        <proposition predicate="is_ingredient" value="butter"/>
+      </assume_shared>
+    
+  	  <get_done action="crack"/>
+
+  	  <get_done action="heat_butter"/>
+
+  	  <get_done action="mix_pan_stir"/>
+  	  <get_done action="heat_off_fold"/>
+  	  <get_done action="transfer"/>
+  	  <inform>
+  		<proposition predicate="finished_omelette" value="exit_omelette"/>
+  	  </inform>
   	</plan>
-  	
   </goal>
+
+  <goal type="perform" action="mix_pan_stir">
+  	<plan>
+  		<get_done action="fork"/>
+  		<get_done action="runny_center"/>
+  		<signal_action_completion/>
+  	</plan>
+  </goal>
+
+  <goal type="perform" action="tomato_soup">
+    <plan>
+      <get_done action="heat_butter_olive"/>
+      <get_done action="cook_onion"/>
+      <get_done action="add_tomato_etc"/>
+      <get_done action="boil"/>
+      <get_done action="reduce_heat"/>
+      <get_done action="puree"/>
+      <get_done action="reheat"/>
+      <inform>
+        <proposition predicate="finished_soup" value="exit_soup"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <goal type="resolve" question_type="wh_question" predicate="quantity">
+  	<plan>
+  	  <findout type="wh_question" predicate="is_recipe"/>
+      <findout type="wh_question" predicate="is_ingredient"/>
+    </plan>  
+  </goal>
+
 </domain>

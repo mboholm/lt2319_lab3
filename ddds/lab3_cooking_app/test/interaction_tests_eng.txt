@@ -15,3 +15,60 @@ U> done
 S> After a few seconds, transfer the omelette onto a plate.
 U> done
 S> Amazing! You have finished preparing a French omelette. Bon appétit!.
+
+--- Tomato soup
+S> What would you like to do?
+U> I want to prepare a tomato soup
+S> Heat butter and olive oil in a large saucepan over medium-low heat.
+U> done
+S> Cook onion and garlic until onion is soft and translucent, about 5 minutes.
+U> done 
+S> Add tomatoes, water, sugar, celery seed, oregano, red pepper flakes, salt, and pepper.
+U> done 
+S> Bring to a boil. 
+U> done
+S> Reduce heat, cover, and simmer for 15 minutes.
+U> done
+S> Remove from heat and puree with an immersion blender. 
+U> done
+S> Reheat soup until warm and season with salt and pepper. 
+U> done
+S> Your soup is finished. Bon appétit!.
+
+--- French omelette with user question
+S> What would you like to do?
+U> I want to prepare a French omelette
+S> Crack three eggs on a bowl and whisk with a pinch of salt.
+U> done
+S> Heat butter or oil on a pan on high heat.
+U> How much butter should I use?
+S> One tablespoon is fine.
+U> 
+S> Heat butter or oil on a pan on high heat.
+U> done
+S> Add the egg mixture to the pan and stir the eggs for about 30 seconds.
+U> done
+S> When the eggs are set but look slightly wet, turn off the heat and fold the omelette.
+U> done
+S> After a few seconds, transfer the omelette onto a plate.
+U> done
+S> Amazing! You have finished preparing a French omelette. Bon appétit!.
+
+--- French omelette with help
+S> What would you like to do?
+U> I want to prepare a French omelette
+S> Crack three eggs on a bowl and whisk with a pinch of salt.
+U> done
+S> Heat butter or oil on a pan on high heat.
+U> done
+S> Add the egg mixture to the pan and stir the eggs for about 30 seconds.
+U> how do I do that
+S> Hold a fork flat on the pan and stir the eggs thoroughly with one hand while shaking the pan back and forth with the other.
+U> ok done
+S> Keep incorporating the set edges into the runny center. This takes just 25 to 30 seconds.
+U> done
+S> When the eggs are set but look slightly wet, turn off the heat and fold the omelette.
+U> done
+S> After a few seconds, transfer the omelette onto a plate.
+U> done
+S> Amazing! You have finished preparing a French omelette. Bon appétit!.
