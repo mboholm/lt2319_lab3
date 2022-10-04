@@ -3,7 +3,15 @@
   <goal type="perform" action="top">
     <plan>
       <forget_all/>
-      <findout type="goal"/> 
+      <!-- <findout type="goal"/> -->
+      <findout type="alt_question">
+        <alt>
+          <perform action="french_omelette"/>
+        </alt>
+        <alt>
+          <perform action="tomato_soup"/>
+        </alt>
+      </findout>
     </plan>
   </goal>
 
@@ -29,7 +37,7 @@
   	<plan>
   		<get_done action="fork"/>
   		<get_done action="runny_center"/>
-  		<signal_action_completion/>
+  		<signal_action_completion postconfirm="false"/>
   	</plan>
   </goal>
 
@@ -61,7 +69,6 @@
   	  	      	<assume_system_belief>
 			      <proposition predicate="quantity" value="butter"/>
 			    </assume_system_belief>
-
   	  	      </then>
   	  		</if>
   	  	</then>

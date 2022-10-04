@@ -66,5 +66,9 @@
     {
         "match": "answer(quantity(butter))",
         "utterance": "One tablespoon is fine."
+    },
+    {
+        "match": "ask(?set([goal(perform(french_omelette)), goal(perform(tomato_soup))]))",
+        "utterance": "Do you want to prepare a French omelette or a tomato soup?"
     }
 ]

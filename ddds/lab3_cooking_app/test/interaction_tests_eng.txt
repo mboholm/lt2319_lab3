@@ -1,8 +1,8 @@
 --- main menu
-S> What would you like to do?
+S> Do you want to prepare a French omelette or a tomato soup?
 
 --- French omelette
-S> What would you like to do?
+S> Do you want to prepare a French omelette or a tomato soup?
 U> I want to prepare a French omelette
 S> Crack three eggs on a bowl and whisk with a pinch of salt.
 U> done
@@ -14,10 +14,10 @@ S> When the eggs are set but look slightly wet, turn off the heat and fold the o
 U> done
 S> After a few seconds, transfer the omelette onto a plate.
 U> done
-S> Amazing! You have finished preparing a French omelette. Bon appétit!.
+S> Amazing! You have finished preparing a French omelette. Bon appetit!.
 
 --- Tomato soup
-S> What would you like to do?
+S> Do you want to prepare a French omelette or a tomato soup?
 U> I want to prepare a tomato soup
 S> Heat butter and olive oil in a large saucepan over medium-low heat.
 U> done
@@ -33,10 +33,10 @@ S> Remove from heat and puree with an immersion blender.
 U> done
 S> Reheat soup until warm and season with salt and pepper. 
 U> done
-S> Your soup is finished. Bon appétit!.
+S> Your soup is finished. Bon appetit!.
 
 --- French omelette with user question
-S> What would you like to do?
+S> Do you want to prepare a French omelette or a tomato soup?
 U> I want to prepare a French omelette
 S> Crack three eggs on a bowl and whisk with a pinch of salt.
 U> done
@@ -55,7 +55,7 @@ U> done
 S> Amazing! You have finished preparing a French omelette. Bon appetit!.
 
 --- French omelette with help
-S> What would you like to do?
+S> Do you want to prepare a French omelette or a tomato soup?
 U> I want to prepare a French omelette
 S> Crack three eggs on a bowl and whisk with a pinch of salt.
 U> done
@@ -67,8 +67,10 @@ S> Hold a fork flat on the pan and stir the eggs thoroughly with one hand while 
 U> ok done
 S> Keep incorporating the set edges into the runny center. This takes just 25 to 30 seconds.
 U> done
+S> 
+U> 
 S> When the eggs are set but look slightly wet, turn off the heat and fold the omelette.
 U> done
 S> After a few seconds, transfer the omelette onto a plate.
 U> done
-S> Amazing! You have finished preparing a French omelette. Bon appétit!.
+S> Amazing! You have finished preparing a French omelette. Bon appetit!.

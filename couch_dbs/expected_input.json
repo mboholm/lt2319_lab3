@@ -1,36 +1,36 @@
 [
     {
-        "current_plan_item": "findout(?X.example_predicate(X), set([example_predicate(individual_1), example_predicate(individual_2), example_predicate(individual_3)]))",
-        "semantic_expression": "answer(example_predicate(individual_1))",
+        "current_plan_item": "findout(?set([goal(perform(french_omelette)), goal(perform(tomato_soup))]))",
+        "semantic_expression": "request(french_omelette)",
         "alternative": {
             "visual_information": [
                 {
                     "attribute": "name",
                     "type": "text/plain",
-                    "value": "Some text to show on the button"
+                    "value": "French omelette"
                 },
                 {
                     "attribute": "image",
                     "type": "image/jpeg",
-                    "value": "https://some-image-url"
+                    "value": "https://thumbs.dreamstime.com/z/french-omelet-mushrooms-cheese-french-omelet-mushrooms-cheese-large-portion-served-white-plate-close-151007532.jpg"
                 }
             ]
         }
     },
     {
-        "current_plan_item": "findout(?X.example_predicate(X), set([example_predicate(individual_1), example_predicate(individual_2), example_predicate(individual_3)]))",
-        "semantic_expression": "answer(example_predicate(individual_2))",
+        "current_plan_item": "findout(?set([goal(perform(french_omelette)), goal(perform(tomato_soup))]))",
+        "semantic_expression": "request(tomato_soup)",
         "alternative": {
             "visual_information": [
                 {
                     "attribute": "name",
                     "type": "text/plain",
-                    "value": "Some other text to show on the button"
+                    "value": "Tomato soup"
                 },
                 {
                     "attribute": "image",
                     "type": "image/jpeg",
-                    "value": "https://some-other-image-url"
+                    "value": "https://theveglife.com/wp-content/uploads/2016/08/Close.jpg"
                 }
             ]
         }
